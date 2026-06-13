@@ -6,6 +6,7 @@ build
 *.tfstate.*
 crash.log
 
+Jenkins-Server-TF/*.md
 # Variables
 
 
@@ -19,3 +20,5 @@ crash.log
 # OS files
 .DS_Store
 Thumbs.db
+
+Jenkins-Server-TF/README.md
