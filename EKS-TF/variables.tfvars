@@ -1,0 +1,15 @@
+# Existing network resources that this folder looks up by tag name.
+vpc-name            = "Jenkins-vpc"
+igw-name            = "Jenkins-igw"
+subnet-name         = "Jenkins-subnet"
+subnet-name2        = "Jenkins-subnet2"
+security-group-name = "Jenkins-sg"
+rt-name2            = "Jenkins-route-table2"
+
+# Logical names for the IAM and EKS resources used by this environment.
+iam-role-eks       = "Tetris-iam-role-eks"
+iam-role-node      = "Tetris-iam-role-ec2"
+iam-policy-eks     = "Tetris-iam-policy-eks"
+iam-policy-node    = "Tetris-iam-policy-node"
+cluster-name       = "Tetris-EKS-Cluster"
+eksnode-group-name = "Tetris-Node-Group"
