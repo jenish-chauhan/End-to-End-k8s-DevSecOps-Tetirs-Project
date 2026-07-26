@@ -2,7 +2,7 @@ terraform {
   # Store Terraform state in S3 so different runs and machines can share
   # the same source of truth for this stack.
   backend "s3" {
-    bucket       = "backend-store-terraform-stat"
+    bucket       = "jerry961"
     region       = "us-east-1"
     key          = "End-to-End-Kubernetes-DevSecOps-Tetris-Project/EKS-TF/terraform.tfstate"
     use_lockfile = true
